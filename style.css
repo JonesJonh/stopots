@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./img/fundo2.png);
+    background-size: cover;
+}
+
+section {
+    width: 700px;
+    height: 500px;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 10px solid orange;
+}
+
+.conatiner {
+    background-color: transparent;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 10px solid brown;
+}
+
+footer {
+    background-color: transparent;
+    width: 100%;
+    height: 150px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 10px solid rgb(19, 223, 0);
+} 
+
+.logo {
+    width: 114px;
+    height: 78%;
+    border: 10px solid yellow;
+}
+
+nav {
+    background-color: transparent;
+    width: 550px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 9px solid yellow;
+}
+
+li {
+    text-transform: uppercase;
+    background-color: aliceblue;
+    font-weight: 700;
+    width: 90px;
+    height: 30px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(40, 40, 224);
+}
+
+.direita_conteudo, .esquerda_conteudo {
+    height: 90%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 10px solid purple;
+    
+}
+
+h1{
+    
+    color: rgb(6, 10, 230);
+    width: 90%;
+    background-size: cover;
+    border: 5px;
+    font-size: 50px;
+    border: 5px solid yellow;
+}
+
+.subtitle {
+    width: 90%;
+    color: aliceblue;
+    font-size: 15px;
+    border: 5px solid yellow;
+}
+
+#player {
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px black;
+    transition: all 0.5s ease;
+}
+
+#player:active {
+    transform: scale(0.8);
+}
+#mouse {
+    width: 50px;
+    margin-bottom: 15px;
+    filter: invert(100%);
+}
+
+#logo{
+    width: 100%;
+} 
+
+.anonimo {
+    width: 80%;
+    height: 25px;
+    border-radius: 5rem;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: blue;
+    background-color: gold;
+    border: 5px solid yellow;
+    transform: scale(0.8);
+}
+
+#anonimo:active {
+    transform: scale(0.8);
+}
+
+.role {
+    text-transform: uppercase;
+    color: black;
+}
+
+.redes {
+    color: aliceblue;
+    border: 5px solid yellow;
+}
